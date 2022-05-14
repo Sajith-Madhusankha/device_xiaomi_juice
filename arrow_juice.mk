@@ -9,6 +9,13 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common cipher stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_juice
@@ -16,6 +23,9 @@ PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Maintainer
+DEVICE_MAINTAINER := Sajith Madhusankha
 
 # Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
