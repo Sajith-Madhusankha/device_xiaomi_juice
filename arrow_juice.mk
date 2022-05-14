@@ -25,7 +25,7 @@ PRODUCT_MODEL := Juice
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Maintainer
-DEVICE_MAINTAINER := Sajith Madhusankha
+DEVICE_MAINTAINER := Sajith_Madhusankha
 
 # Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
