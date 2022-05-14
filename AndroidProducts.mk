@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_juice.mk
+    $(LOCAL_DIR)/arrow_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_juice-user \
-    cipher_juice-userdebug \
-    cipher_juice-eng
+    arrow_juice-user \
+    arrow_juice-userdebug \
+    arrow_juice-eng
