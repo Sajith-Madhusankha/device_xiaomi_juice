@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_juice.mk
+    $(LOCAL_DIR)/pixys_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_juice-user \
-    arrow_juice-userdebug \
-    arrow_juice-eng
+    pixys_juice-user \
+    pixys_juice-userdebug \
+    pixys_juice-eng
