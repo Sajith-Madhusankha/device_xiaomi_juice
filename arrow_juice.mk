@@ -7,9 +7,8 @@
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common cipher stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+# Inherit some common pixys stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -18,7 +17,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_juice
+PRODUCT_NAME := pixys_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Juice
