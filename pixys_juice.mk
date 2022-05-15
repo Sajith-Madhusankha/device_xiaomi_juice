@@ -16,6 +16,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+#Gapps
+TARGET_GAPPS_ARCH := arm64
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixys_juice
 PRODUCT_DEVICE := juice
