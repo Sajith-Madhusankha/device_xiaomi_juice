@@ -17,3 +17,8 @@ on boot
 # Force enable DT2W
     chmod 0666 /sys/touchpanel/double_tap
     write /sys/touchpanel/double_tap 1
+
+# Fast charging
+    write /sys/kernel/fast_charge/force_fast_charge 1
+    # Fingerprint Boost
+    write /sys/kernel/fp_boost/enabled 1
