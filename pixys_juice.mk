@@ -10,9 +10,6 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 # Inherit some common pixys stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
