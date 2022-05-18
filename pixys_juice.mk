@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 # Inherit some common pixys stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# PixysOS Properties
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
