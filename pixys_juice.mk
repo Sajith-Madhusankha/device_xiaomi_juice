@@ -26,6 +26,9 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Maintainer
 DEVICE_MAINTAINER := Sajith_Madhusankha
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Fingerprint
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys
 BUILD_DESC := "raven-user 12 SP2A.220505.002 8353555 release-keys"
