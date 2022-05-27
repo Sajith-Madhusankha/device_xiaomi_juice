@@ -41,6 +41,7 @@ ro.surface_flinger.use_context_priority=true
 ro.surface_flinger.has_wide_color_display=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+ro.vendor.perf.scroll_opt=true
 
 # SF Offset
 debug.sf.late.sf.duration=10500000
